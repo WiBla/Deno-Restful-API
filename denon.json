@@ -1,0 +1,23 @@
+{
+  "$schema": "https://deno.land/x/denon/schema.json",
+  "scripts": {
+    "start": {
+      "cmd": "deno run app.ts",
+      "desc": "A restful API based on Deno",
+
+      "allow": {
+        "net": true,
+        "read": true
+      }
+    },
+    "ws": {
+      "cmd": "deno run websocket.ts",
+      "desc": "A tiny websocket app",
+
+      "allow": {
+        "net": true,
+        "read": true
+      }
+    }
+  }
+}
